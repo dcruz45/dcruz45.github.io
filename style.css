@@ -1,6 +1,51 @@
 body {
-  background-color: #868686;
+  background-image: url("http://wall.rimbuz.com/wp-content/uploads/Black-and-Blue-Abstract-Wallpaper-Backgrounds.jpg");
+  background-color: grey;
+  text-align: center;
+  color: #f2f2f2;
 }
-.nav .navbar .navbar-expand-lg .navbar-light .bg-light {
-  background-color: black;
+
+div.info {
+/*   "to add a border " */
+/*   background-color:; */
+}
+div.image {
+  width: auto;
+  height: auto;
+  margin: auto;
+  transparency: 50%;
+}
+div.skills{
+  border-radius: 15px;
+    padding: 10px; 
+    width: auto;
+    height: auto; 
+}
+img.circle {
+    border-radius: 50%;
+    display: block;
+    max-width:230px;
+    max-height:230px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+h1 {
+  line-height: 100px;
+}
+
+h3 {
+  /*Edit for h3 header spacing*/
+  
+  line-height: 50px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
