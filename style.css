@@ -5,6 +5,19 @@ body {
   color: #f2f2f2;
 }
 
+div.display_left {
+  float: left;
+}
+div.display_right {
+  float: right;
+}
+ul {
+  /*added to remove points from ul elements*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 div.info {
 /*   "to add a border " */
 /*   background-color:; */
@@ -40,6 +53,12 @@ h3 {
   line-height: 50px;
 }
 
+h3.location {
+  /*Edit for h3 header spacing*/
+  
+  line-height: 10px;
+}
+
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -48,4 +67,5 @@ h3 {
   width: 50px;
   text-align: center;
   text-decoration: none;
+  line-height: 20px;
 }
