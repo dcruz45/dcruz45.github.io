@@ -9,7 +9,10 @@ div.display_left {
   float: left;
 }
 div.display_right {
-  float: right;
+  float: left;
+}
+div.center-align {
+  text-align: center;
 }
 ul {
   /*added to remove points from ul elements*/
