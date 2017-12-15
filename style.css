@@ -9,7 +9,7 @@ div.display_left {
   float: left;
 }
 div.display_right {
-  float: left;
+  float: right;
 }
 div.center-align {
   text-align: center;
